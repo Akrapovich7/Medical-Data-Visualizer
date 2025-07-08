@@ -1,24 +1,16 @@
 # Medical-Data-Visualizer
 
-📌 Description:
-This project focuses on analyzing U.S. demographic data from a census CSV file. I used Pandas to explore patterns such as:
+ Description:
+Using a dataset of patient medical records, I cleaned and transformed the data to prepare it for visualization. I then created:
 
-How many people belong to each race category
+A categorical plot to explore distributions of cholesterol, glucose levels, smoking, alcohol use, etc.
 
-Average age of men
-
-Percentage of people with a Bachelor's degree
-
-Income comparisons based on education
-
-Work hours, occupations, and countries with high earners
+A correlation heatmap to examine relationships between features like age, weight, blood pressure, and heart disease.
 
 🛠 Skills & Tools:
 
-Pandas for data loading and manipulation
+Data cleaning and normalization
 
-Boolean filtering and conditional logic
+Seaborn’s catplot() and heatmap()
 
-Grouping and aggregation techniques
-
-Working with real-world tabular data
+Pandas for filtering, adding calculated columns, and formatting
